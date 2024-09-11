@@ -1,0 +1,78 @@
+.services {
+    padding: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .service-item {
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .service-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .query-section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.559);
+  }
+  
+  .query-form {
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .reviews-display ul, .queries-display ul {
+    list-style-type: none;
+    
+    padding: 0;
+  }
+  
+  .reviews-display li, .queries-display li {
+    background-color: #00000090;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .review-section {
+    margin-top: 50px
+    ;
+  
+  }
+  
+  .review-form {
+    margin: auto;
+    width: 100%;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.559);
+    max-width: 1300px;
+  }
+  
+  .reviews-display {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
